@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: #f7fafc; }
+body { @apply text-slate-900 bg-white; }
+.container { @apply max-w-5xl mx-auto px-5; }
+.btn { @apply inline-block rounded-2xl px-4 py-2 font-semibold border border-primary bg-primary text-white hover:opacity-90 transition; }
+.btn-secondary { @apply inline-block rounded-2xl px-4 py-2 font-semibold border border-primary text-primary bg-white hover:bg-slate-50 transition; }
+.card { @apply border border-slate-200 rounded-xl p-4 bg-white; }
+.section-title { @apply text-2xl font-bold text-dark; }
+.section-sub { @apply text-slate-600 mb-6; }
